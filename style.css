@@ -1,0 +1,50 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+.pricing-box {
+	padding-top: 10%;
+}
+.single-pricing ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.single-pricing ul li {
+	line-height: 50px;
+	color: #fff;
+}
+.single-pricing {
+	background: linear-gradient(45deg, #005c97, #363795);
+	padding: 40px;
+	margin-bottom: 30px;
+}
+.single-pricing button {
+	background: #262626;
+	border: none;
+	color: #fff;
+	padding: 10px 30px;
+	display: inline-block;
+	margin-top: 15px;
+}
+span {
+	font-size: 42px;
+	font-weight: 900;
+	text-align: center;
+	cursor: pointer;
+	-webkit-text-stroke-color: white;
+	-webkit-text-stroke-width: 0.02em;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	background-repeat: no-repeat;
+	-webkit-transition: background-size 0.5s cubic-bezier(0.67, 0.01, 0.15, 0.98);
+	transition: background-size 0.5s cubic-bezier(0.67, 0.01, 0.15, 0.98);
+}
+.box {
+	background-image: linear-gradient(135deg, white 0%, white 50%, transparent 50.1%);
+	background-size: 0% 100%;
+	text-transform: uppercase;
+	margin: 0 10px;
+}
+.single-pricing:hover .box {
+	background-size: 220% 100%;
+}
